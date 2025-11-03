@@ -222,7 +222,7 @@
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   :root {
     --page-padding: 20px;
   }
