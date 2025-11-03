@@ -166,7 +166,7 @@
 
 .section__card-text {
   line-height: 23.4px;
-  color: var(--section--card-text-color);
+  color: var(--section-card-text-color);
 }
 
 .section__card-link {
