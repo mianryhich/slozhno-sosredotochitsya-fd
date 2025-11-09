@@ -16,8 +16,30 @@
   --underline-color: #f1b2ce;
   --section-title-color: #ff0070;
   --section-card-text-color: #f1b2ce;
+  --section-title-card-color: #000028;
 }
 
 .theme-dark .header__rec {
   display: inline-block;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-image: url("../images/cover-image-dark.png");
+    --background-color: #000028;
+    --theme-menu-color: #ff0070;
+    --theme-menu-hover-color: #ff007066;
+    --corner-color: #ff0070;
+    --header-title-color: #db00ff;
+    --accent-color: #ff0070;
+    --title-decor-color: #000028;
+    --underline-color: #f1b2ce;
+    --section-title-color: #ff0070;
+    --section-card-text-color: #f1b2ce;
+    --section-title-card-color: #000028;
+  }
+
+  .header__rec {
+    display: inline-block;
+  }
 }

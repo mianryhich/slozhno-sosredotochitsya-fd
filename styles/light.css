@@ -15,9 +15,13 @@
   --title-decor-color: #353430;
   --underline-color: #353430;
   --section-title-color: #353430;
-  --section--card-text-color: #353430;
+  --section-card-text-color: #353430;
   --section-title-card-color: #353430;
 
+}
+
+.theme-light .header__rec {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -32,10 +36,13 @@
     --title-decor-color: #353430;
     --underline-color: #353430;
     --section-title-color: #353430;
-    --section--card-text-color: #353430;
+    --section-card-text-color: #353430;
     --section-title-card-color: #353430;
   }
+  
+  .header__rec {
+    display: none;
+  }
 }
-.theme-light .header__rec {
-  display: none;
-}
+
+

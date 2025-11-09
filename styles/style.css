@@ -159,6 +159,7 @@
 
 .section__card-title {
   line-height: 23.4px;
+  font-size: 18px;
   color: var(--section-title-card-color);
   background-color: var(--accent-color);
   margin-block-end: 10px;
@@ -174,12 +175,11 @@
   text-decoration: none;
 }
 
-.section__card-link__text:hover {
+.section__card-link:hover {
   position: relative;
-  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-.section__card-link__text:hover::after {
+.section__card-link:hover::after {
   content: "";
   position: absolute;
   left: 0;
@@ -265,7 +265,7 @@
     margin-block-end: 80px;
   }
 
-  .section__title_position_left {
+  .section__title_causes {
     max-inline-size: 236px;
   }
 
